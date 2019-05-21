@@ -1,6 +1,6 @@
 import React from "react";
 import TitleBar from "./TitleBar";
-import { shallow, mount, render } from "enzyme";
+import { mount } from "enzyme";
 
 const wrapper = mount(<TitleBar />);
 
