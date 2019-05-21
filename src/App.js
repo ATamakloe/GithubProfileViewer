@@ -7,6 +7,7 @@ import Profile from "./components/Profile/Profile";
 import RepoList from "./components/RepoList/RepoList";
 import Loading from "./components/Loading/Loading";
 import Error from "./components/Error/Error";
+require("dotenv").config();
 
 const token = `${process.env.REACT_APP_KEY}`;
 
